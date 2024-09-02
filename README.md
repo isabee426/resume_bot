@@ -23,7 +23,7 @@ base_model: gpt2
 
 -Check out some of the previous versions to see how far WaldoBot has come.
 
-If you'd like to see the most effective keywords click the dataset underneath the text box.
+If you'd like to see the most effective keywords click the dataset
 
 Tips: 
 
