@@ -16,7 +16,8 @@ datasets:
 - isashap/resume-dataset-w-context
 base_model: gpt2
 ---
-## Training procedure
+## WATCH THE DEMO VIDEO HERE
+https://youtu.be/1ByRIxlAwY0
 
 ### Framework versions
 -This version only has three jobs, limited keyword options. 
