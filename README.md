@@ -1,21 +1,3 @@
----
-library_name: peft
-pipeline_tag: text-generation
-widget:
-- text: 'Job: kitchen Keywords: inventory management Resume Point:'
-  example_title: kitchen
-- text: 'Job: retail Keywords: customer service Resume Point:'
-  example_title: retail
-- text: 'Job: laundry Keywords: organization Resume Point:'
-  example_title: laundry
-tags:
-- resume
-language:
-- en
-datasets:
-- isashap/resume-dataset-w-context
-base_model: gpt2
----
 ## WATCH THE DEMO VIDEO HERE
 https://youtu.be/1ByRIxlAwY0
 
@@ -35,3 +17,21 @@ If you want the resume to start with a specific verb, write it and let it autoco
 If the Waldobot doesnt finish generating a whole sentence, click compute again! 
 
 - PEFT 0.5.0
+---
+library_name: peft
+pipeline_tag: text-generation
+widget:
+- text: 'Job: kitchen Keywords: inventory management Resume Point:'
+  example_title: kitchen
+- text: 'Job: retail Keywords: customer service Resume Point:'
+  example_title: retail
+- text: 'Job: laundry Keywords: organization Resume Point:'
+  example_title: laundry
+tags:
+- resume
+language:
+- en
+datasets:
+- isashap/resume-dataset-w-context
+base_model: gpt2
+---
